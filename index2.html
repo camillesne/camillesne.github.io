@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personnel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #ff6347;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .bio {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .bio img {
+            float: left;
+            margin-right: 2rem;
+            border-radius: 50%;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        .project {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 2rem);
+            box-sizing: border-box;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon Blog Personnel</h1>
+    </header>
+    <nav>
+        <a href="#bio">Biographie</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="bio" class="bio">
+            <h2>Biographie</h2>
+            <img src="https://via.placeholder.com/150" alt="Photo de profil">
+            <p>Bonjour ! Je m'appelle [Ton Nom] et ceci est mon blog personnel où je partage mes pensées, mes projets et bien plus encore. Passionné par [ton domaine de passion], j'adore explorer de nouvelles idées et collaborer avec d'autres créatifs. En dehors de cela, j'aime [tes hobbies ou intérêts personnels].</p>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projets et Réalisations</h2>
+            <div class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Projet 1">
+                <h3>Projet 1</h3>
+                <p>Description de votre projet 1. Ce projet consiste en [détails du projet].</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Projet 2">
+                <h3>Projet 2</h3>
+                <p>Description de votre projet 2. Ce projet consiste en [détails du projet].</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/300x200" alt="Projet 3">
+                <h3>Projet 3</h3>
+                <p>Description de votre projet 3. Ce projet consiste en [détails du projet].</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Retrouvez-moi sur les réseaux sociaux</p>
+        <p>
+            <a href="https://www.facebook.com">Facebook</a> |
+            <a href="https://www.twitter.com">Twitter</a> |
+            <a href="https://www.linkedin.com">LinkedIn</a>
+        </p>
+        <p>Contactez-moi à <a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
+    </footer>
+</body>
+</html>
